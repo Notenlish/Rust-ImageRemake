@@ -1,0 +1,34 @@
+
+HOW DOES THE ALGORITHM WORK
+we have a black image
+and we have an input image
+
+the algorithm will copy the black image and randomly place 
+an object in it(object will have random rot, pos, color and size)
+
+then the algorithm will give points based on generated image
+
+repeat for 1000 objects
+
+the 100 of them with the highest score will live, make variations
+repeat
+
+after x amount of runs, a cool image will appear
+
+2.147.483.647 i32 limit (for score value)
+
+
+TODO: 
+* Add compare2images func:           DONE
+* Add multiply blending with alpha   DONE
+* Add Sprite folder with sprites:    DONE
+* test if calculating score works    DONE
+* GOTO LINE 396 and change the x and y posiiton from 0,0 to the center of the screen
+* Make the evolution thingy:
+* TADA!!! 
+
+
+
+BUG SOLVING NOTES
+* OBJECTLISTS ARENT ACTUALLY BEING RESETTED
+* FIXED: choosing highest scoring algorithm
